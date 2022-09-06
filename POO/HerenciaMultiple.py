@@ -15,4 +15,4 @@ class ClaseB():
 class ClaseX(ClaseA, ClaseB):
     pass
 
-cX1 = ClaseX(15, 21)
+# cX1 = ClaseX(15, 21)

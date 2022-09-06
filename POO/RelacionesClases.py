@@ -29,11 +29,11 @@ class Urbanizacion():
         txt = "Urbanización: {0} ({1})"
         return txt.format(self.nombre, self.ciudad)
 
-pais1 = Pais("Ecuador", "Guillermo Lasso")
-print(pais1)
-
-ciudad1 = Ciudad("Guayaquil",17000000, pais1)
-print(ciudad1)
-
-urba1 = Urbanizacion("Victoria del Rio",ciudad1)
-print(urba1)
+# pais1 = Pais("Ecuador", "Guillermo Lasso")
+# print(pais1)
+#
+# ciudad1 = Ciudad("Guayaquil",17000000, pais1)
+# print(ciudad1)
+#
+# urba1 = Urbanizacion("Victoria del Rio",ciudad1)
+# print(urba1)

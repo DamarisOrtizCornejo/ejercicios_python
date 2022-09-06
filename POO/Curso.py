@@ -33,9 +33,9 @@ class Curso():
         texto = "Nombre: {0} - Creditos: {1}"
         return texto.format(self.nombre, self.creditos)
 
-curso1 = Curso("Matematicas",5,"Ingenieria en Software")
-print(curso1)
-curso1.mostrarDatos()
+# curso1 = Curso("Matematicas",5,"Ingenieria en Software")
+# print(curso1)
+# curso1.mostrarDatos()
 
 # curso2 = Curso("Lenguaje",4,"Ingenieria en Sistemas")
 # print(curso2.nombre)

@@ -28,5 +28,5 @@ class Generadores2:
 
     lenguajesObtenidos = devuelveLenguajes("Python", "Java", "PHP", "Ruby", "JavaScript")
 
-    print(next(lenguajesObtenidos))
-    print(next(lenguajesObtenidos))
+    # print(next(lenguajesObtenidos))
+    # print(next(lenguajesObtenidos))

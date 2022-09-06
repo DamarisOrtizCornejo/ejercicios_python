@@ -20,10 +20,10 @@ class Estudiante(Persona):
         super().datos()
         print("Profesion: {0}".format(self.profesion))
 
-estu1 = Estudiante("Ortiz", "Cornejo", "Damaris", "Ingenieria en Software")
-print(estu1.mostrarNombreCompleto())
-print(estu1.profesion)
-estu1.datos()
-
-per1 = Persona("Ortiz", "Cornejo", "Damaris")
-print(isinstance(per1, Estudiante))
+# estu1 = Estudiante("Ortiz", "Cornejo", "Damaris", "Ingenieria en Software")
+# print(estu1.mostrarNombreCompleto())
+# print(estu1.profesion)
+# estu1.datos()
+#
+# per1 = Persona("Ortiz", "Cornejo", "Damaris")
+# print(isinstance(per1, Estudiante))

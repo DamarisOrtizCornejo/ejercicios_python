@@ -19,8 +19,8 @@ class Cuenta():
     def set_Moneda(self,moneda):
        self.__moneda = moneda
 
-cuenta1 = Cuenta("Oscar Garcia", 15000,"Soles")
-print(cuenta1.get_Saldo())
-print(cuenta1.get_Moneda())
-cuenta1.set_Moneda(("Dolares"))
-print(cuenta1.get_Moneda())
+# cuenta1 = Cuenta("Oscar Garcia", 15000,"Soles")
+# print(cuenta1.get_Saldo())
+# print(cuenta1.get_Moneda())
+# cuenta1.set_Moneda(("Dolares"))
+# print(cuenta1.get_Moneda())
