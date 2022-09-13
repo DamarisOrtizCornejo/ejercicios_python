@@ -10,7 +10,6 @@ tupla2=(7, "Oscar", True, 450.1, 16 + 7j, 15, "Felicidad", False)
 print(tupla2)
 
 tupla3 = (9, 3, (4, 5, 6))
-print(tupla3)
 print(tupla2[1])
 #tupla2[1] = "Damaris"
 print(tupla2[-1]) # Acceder al ultimo elemento
