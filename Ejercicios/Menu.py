@@ -48,7 +48,7 @@ class Menu:
 opc =""
 while opc !="34":
     os.system("cls")
-    men = Menu("Menu Operaciones",["1) Hola Mundo","2) Variables","3) Conversiones","4) Números y Operaciones Matemáticas ","5) Concatenación","6) Funciones de Cadena","7) Tuplas","8) Listas","9) Diccionarios","10) Lectura de Datos","11) Estructura Condicional","12) Funciones","13) Operadores Lógicos","14) Operadores Ternarios","15) Funcion Range","16) Bucle For","17) If con Tuplas y Listas","18) Factorial de un Número","19) Bucle While","20) Sentencia Break, Continue y Pass","21) Generadores","22) Generadores 2","23) Excepciones","24) Sentencia Raise","25) Módulos","26) Paquetes","27) POO","28) Curso y __str__","29) Método Accesores","30) Herencia, Sobreescritura de Método y Principio de Sustitución","31) Herencia Múltiple","32) Polimorfismo","33) Relaciones entre Clases","34) Salir"])
+    men = Menu("\033[3;36m"+"Menu Operaciones",["1) Hola Mundo","2) Variables","3) Conversiones","4) Números y Operaciones Matemáticas ","5) Concatenación","6) Funciones de Cadena","7) Tuplas","8) Listas","9) Diccionarios","10) Lectura de Datos","11) Estructura Condicional","12) Funciones","13) Operadores Lógicos","14) Operadores Ternarios","15) Funcion Range","16) Bucle For","17) If con Tuplas y Listas","18) Factorial de un Número","19) Bucle While","20) Sentencia Break, Continue y Pass","21) Generadores","22) Generadores 2","23) Excepciones","24) Sentencia Raise","25) Módulos","26) Paquetes","27) POO","28) Curso y __str__","29) Método Accesores","30) Herencia, Sobreescritura de Método y Principio de Sustitución","31) Herencia Múltiple","32) Polimorfismo","33) Relaciones entre Clases","34) Salir"])
     opc = men.menu()
     os.system("cls")
     if opc == "1":
