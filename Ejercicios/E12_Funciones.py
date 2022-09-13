@@ -28,3 +28,7 @@ class Funciones:
             print("Ganas menos que el sueldo minimo")
 
     # evaluarSueldoMinimo(1200)
+
+# fun = Funciones()
+# print(fun.saludar("Hola"))
+# fun.evaluarSueldoMinimo(1200)

@@ -13,18 +13,18 @@ print(lista1[0:3])
 print(lista1[:2])
 print(lista1[3:])
 
-lista1.append("Damaris Ortiz")
+lista1.append("Damaris Ortiz") # inserta datos al final de la lista
 print(lista1)
 
-lista1.insert(4,"Ecuador")
+lista1.insert(4,"Ecuador") # inserta datos en determinada posicion
 print(lista1)
 
-lista1.extend(["Lizbeth", 110, False])
+lista1.extend(["Lizbeth", 110, False]) #Extiende la lista
 print(lista1)
 
-print(lista1.index("Angel"))
+print(lista1.index("Angel")) #Saber la posicion de un elemento
 
-lista1.remove(56.3)
+lista1.remove(56.3) #eliminar un dato de la lista
 print(lista1)
 
 lista1.pop() # Elimina el ultimo elemento de la lista

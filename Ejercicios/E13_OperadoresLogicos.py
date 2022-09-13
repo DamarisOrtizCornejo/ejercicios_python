@@ -33,3 +33,7 @@ class OperadoresLogicos:
             print("Verdad")
         else:
             print("Es mentira...")
+
+# op = OperadoresLogicos()
+# op.PrimerEjercicio()
+# op.SegundoEjercicio()

@@ -21,7 +21,7 @@ from E23_Excepciones import Excepciones
 from E24_Raise import Raise
 from Paquete1.FuncionesCadenas import contarLetras
 # from Paquete1.FuncionesNumericas import *
-from modulos.funcionesMatematicas import *
+from modulo.funcionesMatematicas import *
 from POO.Persona import Personas
 from POO.Curso import Curso
 from POO.Cuenta import Cuenta
@@ -57,7 +57,7 @@ while opc !="34":
         # numeros = ()
         print("Hola Mundo")
         input("Presione una tecla para continuar...")
-        os.system("cls")
+        os.system("cls") 
 
     elif opc == "2":
         opc2 = ""

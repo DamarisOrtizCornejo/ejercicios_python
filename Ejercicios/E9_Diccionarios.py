@@ -11,7 +11,7 @@ miDiccionarios = {"España":"Madrid", "Ecuador":"Quito", "Alemania":"Berlin"}
 print(miDiccionarios["Ecuador"])
 print(miDiccionarios)
 
-miDiccionarios["Venezuela"] = "Caracas"
+miDiccionarios["Venezuela"] = "Caracas" #añade un elemento
 print(miDiccionarios)
 
 miDiccionarios["España"] = "Barcelona"

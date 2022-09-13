@@ -1,4 +1,3 @@
-# range(): Crea una lista inmutable de numeros enteros en sucesion aritmetica.
 
 # numeros = range(5) #[0, 1, 2, 3, 4]
 #
@@ -10,6 +9,8 @@
 # numeros2 = range(10, 100, 8)
 # print(numeros2[9]) #[10, 18, 26, 34, 42, 50, 58, 66, 74, 82, 90, 98]
 
+# range(): Crea una lista inmutable de numeros enteros en sucesion aritmetica.
+
 class Range:
     def Range(self):
         numeros = range(5) #[0, 1, 2, 3, 4]
@@ -18,3 +19,6 @@ class Range:
         print(numeros1[5])
         numeros2 = range(10, 100, 8)
         print(numeros2[9]) #[10, 18, 26, 34, 42, 50, 58, 66, 74, 82, 90, 98]
+
+# ran = Range()
+# ran.Range()

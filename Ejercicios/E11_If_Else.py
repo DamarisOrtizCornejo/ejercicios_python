@@ -15,3 +15,6 @@ class Sentencia:
             print("Tienes 18 años!")
         else:
             print("No eres mayor de edad")
+
+# sen = Sentencia()
+# sen.condicionales(10)
