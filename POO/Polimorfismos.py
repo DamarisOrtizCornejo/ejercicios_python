@@ -18,5 +18,5 @@ class Trabajador():
 def describirPersona(persona):
     persona.describir()
 
-# doc1 = Trabajador()
-# describirPersona(doc1)
+doc1 = Trabajador()
+describirPersona(doc1)
